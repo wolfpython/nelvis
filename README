@@ -1,4 +1,29 @@
-Yes,this is the new elvis(a vi clone).The elvis project haven't been updated
-for a long time.I start this new elvis project .
+Yes,this is the new elvis(a vi clone)--nelvis.The elvis project haven't been
+updated for a long time.I start this new elvis project .
 
-The first things I need to do is to mantain the code.
+The elvis's homepage is http://elvis.the-little-red-haired-girl.org.
+
+
+The first things I need to do is to mantain the code.The old code support DOS,
+OS2,Unix and Windows platforms(here I diffirentiate arch for hardware and
+platform for software). Since I only have Unix here(Debian, Gentoo, Mageia,
+FreeBSD and NetBSD),so I don't ensure the  code I write  gonna support the 
+other platforms(DOS, Windows and OS2).I make tag 2.2_1 to support the origin
+code(older code I mean) but with minor modification to compile in the latest 
+Linux Distros(the glibc2.10 has a getline() function in stdio.h, that's the
+problem).
+
+Notes:
+1. Though compiled sucessfully in Debian Wheezy(testing),but it cannot start 
+regularlly from  common line.     
+
+    The error message may be like this:
+    skipping 76 old session files
+    X Error of failed request:  BadMatch (invalid parameter attributes)
+    Major opcode of failed request:  42 (X_SetInputFocus)
+    Serial number of failed request:  144
+    Current serial number in output stream:  181
+
+
+
+
