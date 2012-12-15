@@ -1,0 +1,3 @@
+2012-12-16
++ there are about 208 use of QTY macro. Replace it with inline QTY instead.
++ use getopt to handle the command line options.
